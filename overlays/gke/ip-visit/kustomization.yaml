@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - ../ip-visit-application.yaml
+  - ingress.yaml
 
 patches:
   - path: patches/counter-patch.yaml
