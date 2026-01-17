@@ -5,8 +5,8 @@ resources:
   - argo-rollouts
   - shared-infra-application.yaml
   - ip-visit
+  - visualization
   - visualization-application.yaml
-  - ingress.yaml
   - namespace.yaml
   - certificate.yaml
   - secret.yaml
